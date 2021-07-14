@@ -5,7 +5,7 @@ using System.Text;
 using SpecFlowProject.Resuable;
 using TechTalk.SpecFlow;
 
-namespace RetailProject.Hooks
+namespace SpecFlowProject.Hooks
 {
     [Binding]
     public sealed class MyHooks:Base
