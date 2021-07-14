@@ -8,7 +8,7 @@ using SpecFlowProject.Resuable;
 using SpecFlowProject.Pages;
 using TechTalk.SpecFlow;
 
-namespace SpecFlowProject1.Steps
+namespace SpecFlowProject.Steps
 {
     [Binding]
     public class PurchaseClothesSteps:Base
