@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\SpecFlowProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\SpecFlowProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\SpecFlowProject.csproj",
+        "projectName": "SpecFlowProject",
+        "projectPath": "C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\SpecFlowProject.csproj",
+        "packagesPath": "C:\\Users\\ramkumar.raja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ramkumar.raja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[91.0.4472.10100, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.8, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.5, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

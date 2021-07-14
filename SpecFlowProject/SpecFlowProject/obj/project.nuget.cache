@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "QVjAuGPhYZaGeq4JuD0JAYQNIdv6Xx5NCxjf9bcN2793YcvrQyqngcj3TRuKjXHNLAE+nK4s0bAQyDlqCCW58A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\SpecFlowProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\google.protobuf\\3.7.0\\google.protobuf.3.7.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\specflow\\3.9.8\\specflow.3.9.8.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\specflow.nunit\\3.9.8\\specflow.nunit.3.9.8.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\specflow.plus.livingdocplugin\\3.9.5\\specflow.plus.livingdocplugin.3.9.5.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.9.8\\specflow.tools.msbuild.generation.3.9.8.nupkg.sha512",
+    "C:\\Users\\ramkumar.raja\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
