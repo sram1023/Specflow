@@ -10,8 +10,7 @@ namespace SpecFlowProject.Hooks
     [Binding]
     public sealed class MyHooks:Base
     {
-        // For additional details on SpecFlow hooks see http://go.specflow.org/doc-hooks
-
+      
         [BeforeTestRun]
         public static void BeforeScenario()
         {
