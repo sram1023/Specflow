@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SpecFlowProject.Models
 {
-    class GetResponse
+    class PutResponse
     {
-        public String address { get; set; }
+        public String msg { get; set; }
     }
 }
