@@ -84,13 +84,19 @@ namespace SpecFlowProject.Features
         }
 
         [Then(@"the rest api for put is ready")]
-        public void GivenTheRestApiForPutIsReady()
+        public String GivenTheRestApiForPutIsReady()
         {
 
-            using (StreamReader str = new StreamReader("C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\InputJson\\Put.json"))
-            {
-                jsonPutBodyString = str.ReadToEnd();
-            }
+            PutRequestPayload putRequest = new PutRequestPayload();
+            putRequest.key = "qaclick123";
+            putRequest.address = "Morgan road";
+            putRequest.place_id = postResponseObj.place_id;
+
+            //using (StreamReader str = new StreamReader("C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\InputJson\\Put.json"))
+            //{
+            //    jsonPutBodyString = str.ReadToEnd();
+            //}
+            return putRequest.toString();
         }
 
         [Then(@"update the address as (.*)")]
@@ -101,7 +107,7 @@ namespace SpecFlowProject.Features
             request.Resource = putResource + "&place_id=" + postResponseObj.place_id;
             request.AddHeader("Content-Type", "application/json");
 
-            request.AddJsonBody(jsonPutBodyString.Replace("placeId", postResponseObj.place_id));
+            request.AddJsonBody(GivenTheRestApiForPutIsReady());
             response = client.Execute(request);
 
             Console.WriteLine(response.Content);

@@ -21,7 +21,7 @@ namespace SpecFlowProject.Hooks
         [AfterTestRun]
         public static void AfterScenario()
         {
-            driver.Quit();
+            //driver.Quit();
         }
     }
 }

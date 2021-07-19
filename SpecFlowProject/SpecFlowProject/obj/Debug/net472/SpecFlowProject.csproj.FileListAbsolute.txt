@@ -30,3 +30,14 @@ C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\obj
 C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\obj\Debug\net472\SpecFlowProject.csproj.CopyComplete
 C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\obj\Debug\net472\SpecFlowProject.dll
 C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\obj\Debug\net472\SpecFlowProject.pdb
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\Allure.Commons.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\CsvHelper.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\Microsoft.Bcl.HashCode.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\MimeTypesMap.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\Allure.SpecFlowPlugin.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\System.Buffers.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\System.Memory.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\System.Threading.Tasks.Extensions.dll
