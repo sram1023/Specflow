@@ -8,6 +8,7 @@ using SpecFlowProject.Resuable;
 using SpecFlowProject.Pages;
 using TechTalk.SpecFlow;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace SpecFlowProject.Steps
 {
@@ -18,10 +19,13 @@ namespace SpecFlowProject.Steps
 
         Home homePage = new Home();
 
-        [Given(@"user on the homepage and selecting the single product option")]
+        [Given(@"user on the homepage")]
         public void WhenTheySelectingTheSingleProductOption()
         {
-            IWebElement element = homePage.elementInVisibleById("menu-item-dropdown-251");
+
+            IWebElement ele = driver.FindElement(By.XPath("//a[contains(text(),'Accept all')]"));
+            homePage.jsExecutorClick(ele);
+            IWebElement element = homePage.elementInVisibleById("menu-item-251");
             Actions actions = new Actions(driver);
             actions.MoveToElement(element).Perform();
 
@@ -48,7 +52,7 @@ namespace SpecFlowProject.Steps
         public void ThenTheyClickShopMenu()
         {
             homePage.elementInVisibleByXpath("//a[@title='Shop']").Click();
-           
+
         }
 
         [Then(@"they add the (.*) watches")]
@@ -66,12 +70,13 @@ namespace SpecFlowProject.Steps
         [Then(@"verify the (.*) items in the cart")]
         public void ThenVerifyTwoItems(String noOfItems)
         {
-
+            Thread.Sleep(2000);
             IWebElement cartCount = homePage.elementClickableByXpath("//div[contains(@class,'header-right')]//i[@class='la la-shopping-bag']/span");
-
-            //IWebElement tableElement = homePage.elementInVisibleByXpath("//form[@class='woocommerce-cart-form']/table");
-            //IList<IWebElement> tableRow = tableElement.FindElements(By.TagName("tr"));
-            Assert.AreEqual(noOfItems,cartCount.Text);
+            Console.Write("Count:" + cartCount);
+            Assert.AreEqual(noOfItems, cartCount.Text);
+            
         }
+
+ 
     }
-}
+    }

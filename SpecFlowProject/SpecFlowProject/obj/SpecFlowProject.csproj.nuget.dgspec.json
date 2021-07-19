@@ -72,10 +72,6 @@
               "target": "Package",
               "version": "[91.0.4472.10100, )"
             },
-            "SpecFlow.Allure": {
-              "target": "Package",
-              "version": "[3.5.0.65, )"
-            },
             "SpecFlow.NUnit": {
               "target": "Package",
               "version": "[3.9.8, )"
