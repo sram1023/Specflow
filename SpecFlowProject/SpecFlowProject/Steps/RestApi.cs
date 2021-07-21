@@ -91,6 +91,7 @@ namespace SpecFlowProject.Features
             putRequest.key = "qaclick123";
             putRequest.address = "Morgan road";
             putRequest.place_id = postResponseObj.place_id;
+            
 
             //using (StreamReader str = new StreamReader("C:\\Users\\ramkumar.raja\\source\\repos\\Specflow\\SpecFlowProject\\SpecFlowProject\\InputJson\\Put.json"))
             //{
@@ -112,7 +113,7 @@ namespace SpecFlowProject.Features
 
             Console.WriteLine(response.Content);
 
-            
+           
         }
 
         [Then(@"validate the message (.*)")]

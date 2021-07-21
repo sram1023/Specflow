@@ -77,6 +77,19 @@ namespace SpecFlowProject.Steps
             
         }
 
- 
+        [When(@"they clicking the shop menu options")]
+        public void ThenTheyClickShop()
+        {
+            homePage.elementInVisibleByXpath("//a[@title='Shop']").Click();
+
+        }
+
+        [Then(@"they view the products of (.*)")]
+        public void viewProducts(String product)
+        {
+            homePage.elementInVisibleByXpath("//a/h2[contains(text(),'"+product+"')]/../../a[2]").Click();
+
+        }
+
     }
     }
