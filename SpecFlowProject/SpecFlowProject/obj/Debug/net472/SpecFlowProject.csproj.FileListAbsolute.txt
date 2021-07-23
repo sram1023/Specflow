@@ -32,3 +32,4 @@ C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\obj
 C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\obj\Debug\net472\SpecFlowProject.csproj.AssemblyReference.cache
 C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\EntityFramework.SqlServer.dll
 C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\EntityFramework.dll
+C:\Users\ramkumar.raja\source\repos\Specflow\SpecFlowProject\SpecFlowProject\bin\Debug\net472\SpecFlowProject.dll.config

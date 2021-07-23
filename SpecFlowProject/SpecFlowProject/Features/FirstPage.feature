@@ -13,3 +13,6 @@ Scenario: Order the clothes
 		Given user on the homepage
 		When they clicking the shop menu options
 		Then they view the products of Top pants upper
+
+		
+

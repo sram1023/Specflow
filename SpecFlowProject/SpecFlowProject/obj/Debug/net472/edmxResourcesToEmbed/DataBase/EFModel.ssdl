@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Demo.dbo.Entry' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Entry">
+    <Key>
+      <PropertyRef Name="Sno" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Address" />
+    </Key>
+    <Property Name="Sno" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Address" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DemoModelStoreContainer">
+    <EntitySet Name="Entry" EntityType="Self.Entry" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Entry].[Sno] AS [Sno], 
+    [Entry].[Name] AS [Name], 
+    [Entry].[Address] AS [Address]
+    FROM [dbo].[Entry] AS [Entry]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

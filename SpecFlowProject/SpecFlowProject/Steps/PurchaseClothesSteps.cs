@@ -9,6 +9,9 @@ using SpecFlowProject.Pages;
 using TechTalk.SpecFlow;
 using System.Collections.Generic;
 using System.Threading;
+using System.Linq;
+using SpecFlowProject.DataBase;
+
 
 namespace SpecFlowProject.Steps
 {
@@ -74,7 +77,7 @@ namespace SpecFlowProject.Steps
             IWebElement cartCount = homePage.elementClickableByXpath("//div[contains(@class,'header-right')]//i[@class='la la-shopping-bag']/span");
             Console.Write("Count:" + cartCount);
             Assert.AreEqual(noOfItems, cartCount.Text);
-            
+
         }
 
         [When(@"they clicking the shop menu options")]
@@ -87,9 +90,10 @@ namespace SpecFlowProject.Steps
         [Then(@"they view the products of (.*)")]
         public void viewProducts(String product)
         {
-            homePage.elementInVisibleByXpath("//a/h2[contains(text(),'"+product+"')]/../../a[2]").Click();
+            homePage.elementInVisibleByXpath("//a/h2[contains(text(),'" + product + "')]/../../a[2]").Click();
 
         }
 
+      
     }
     }
