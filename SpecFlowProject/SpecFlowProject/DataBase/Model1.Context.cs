@@ -26,5 +26,7 @@ namespace SpecFlowProject.DataBase
         }
     
         public virtual DbSet<MyTest> MyTests { get; set; }
+
+    
     }
 }

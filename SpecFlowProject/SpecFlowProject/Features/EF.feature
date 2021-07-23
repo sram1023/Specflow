@@ -2,4 +2,5 @@
 	
 
 Scenario: test DB
-		Given test db records
+		Given able to read the record
+		Then insert the new record

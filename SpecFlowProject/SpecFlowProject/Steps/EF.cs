@@ -8,16 +8,33 @@ namespace SpecFlowProject.Steps
     [Binding]
     public class EFSteps
     {
-        [Given(@"test db records")]
+        DemoEntities context = new DemoEntities();
+
+        [Given(@"able to read the record")]
         public void GivenTestDbRecords()
         {
-            DemoEntities context = new DemoEntities();
-
+           
             var query = from p in context.MyTests where p.ID == 1 select p;
-
             var myTable = query.FirstOrDefault<MyTest>();
             Console.WriteLine(myTable.FirstName);
             Assert.AreEqual("John", myTable.FirstName);
+            
+        }
+
+        [Then(@"insert the new record")]
+        public void insertRecords()
+        {
+            var MyTest = new MyTest
+            {
+                ID = 3,
+                FirstName = "Abbey",
+                LastName = "Filton",
+                Age = 32
+            };
+
+            context.MyTests.Add(MyTest);
+    
+            context.SaveChanges();
 
         }
     }
